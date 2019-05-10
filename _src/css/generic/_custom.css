@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $page_bg;
+  min-height: 100vh;
+}
+
+a {
+  color: $blue;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 1px dashed $grey;
+}
+
+figure {
+  figcaption {
+    font-size: 0.875rem;
+    color: $paragraph;
+    text-align: center;
+    margin: 0.625rem 0;
+  }
+}

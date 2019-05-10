@@ -1,0 +1,62 @@
+.h1 {
+  font-size: responsive 1.875rem 2.25rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h2 {
+  font-size: responsive 1.625rem 1.875rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h3 {
+  font-size: responsive 1.375rem 1.625rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h4 {
+  font-size: responsive 1.125rem 1.375rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h5 {
+  font-size: responsive 1rem 1.125rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h6 {
+  font-size: responsive 0.875rem 1rem;
+  font-range: $grid_min_width $grid_max_width;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1.32;
+  color: $title;
+  padding-bottom: 0.625rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $title;
+}
+
+.p {
+  font-size: responsive 0.875rem 1rem;
+  font-range: $grid_min_width $grid_max_width;
+  line-height: 1.63;
+  color: $paragraph;
+  margin-bottom: 1rem;
+}
+
+code,
+.code {
+  padding: 0.125rem 0.25rem;
+  background-color: $code_bg;
+  font-family: monospace;
+  font-size: responsive 0.875rem 1rem;
+  font-range: $grid_min_width $grid_max_width;
+  border-radius: 6px;
+  border: 1px solid $code_border;
+  color: $code_color;
+}

@@ -1,0 +1,34 @@
+.list {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+
+  &__item {
+    display: list-item;
+    list-style-type: disc;
+  }
+
+  li,
+  &__item {
+    font-size: responsive 0.875rem 1rem;
+    font-range: $grid_min_width $grid_max_width;
+    line-height: 1.32;
+    color: $paragraph;
+
+    & + li {
+      margin-top: 0.875rem;
+    }
+  }
+}
+
+ol {
+  li {
+    list-style-type: decimal;
+  }
+}
+
+ul {
+  li {
+    list-style-type: disc;
+  }
+}

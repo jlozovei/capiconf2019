@@ -1,0 +1,4 @@
+$page_container_width: 980px;
+
+$grid_min_width: 250px;
+$grid_max_width: $page_container_width;

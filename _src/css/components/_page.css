@@ -1,0 +1,22 @@
+.page {
+  flex: 1;
+  padding: 1rem 0;
+
+  &__container {
+    width: 90%;
+    max-width: $page_container_width;
+    margin: 0 auto;
+  }
+
+  &__section {
+    position: relative;
+
+    img {
+      margin: 0 auto;
+    }
+
+    & + .page__section {
+      margin-top: 2rem;
+    }
+  }
+}
