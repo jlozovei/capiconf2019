@@ -1,0 +1,47 @@
+{
+  "name": "capiconf2019",
+  "version": "1.0.0",
+  "description": "CapiConf 2019 - The Age of Accessibility - Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlozovei/capiconf2019.git"
+  },
+  "author": "Julio Lozovei <jlozovei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlozovei/capiconf2019/issues"
+  },
+  "homepage": "https://github.com/jlozovei/capiconf2019#readme",
+  "dependencies": {
+    "@khanacademy/tota11y": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "gulp": "^4.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "postcss-colorblind": "^1.0.0",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-custom-selectors": "^5.1.2",
+    "precss": "^4.0.0",
+    "prettier": "^1.17.0",
+    "rucksack-css": "^1.0.2",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.30.0",
+    "webpack-stream": "^5.2.1"
+  }
+}
