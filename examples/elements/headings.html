@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Semantic Headings Example</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/base.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page__container">
+        <section class="page__section page__section--headline">
+          <h1 class="h1">Semantic Headings Example</h1>
+          <p class="p">
+            This heading tag above is the most important in the page because it is an <code>h1</code>; it is the "page title", or the
+            "content title".
+          </p>
+        </section>
+
+        <section class="page__section">
+          <h2 class="h2">Good case</h2>
+          <p class="p">
+            The main point using heading tags is to place them in correctly order. It doesn't mean that you need to put an
+            <code>h4</code> right after an <code>h3</code>* - it means that you need to put the tags following the text order.
+          </p>
+        </section>
+
+        <section class="page__section">
+          <h5 class="h2">Bad case</h5>
+          <p class="p">
+            The title above is incorrect because it is a second degree title and it is inside an <code>h5</code> - visually it is stylized
+            like an <code>h2</code>, but semanticly it is wrong and out of place.
+          </p>
+        </section>
+
+        <section class="page__section">
+          <hr />
+          <p class="p">
+            <strong>*</strong> the <code>h1</code> should be unique within your page; the usage of <code>h2</code> to <code>h6</code> must
+            be in chronologically descending order.
+          </p>
+
+          <h3 class="h3">But, imagine the following example:</h3>
+
+          <ol class="list">
+            <li>You have an <code>article</code> markup;</li>
+            <li>The chapters are defined using <code>h2</code>, inside a <code>section</code> or even a <code>div</code>;</li>
+            <li>Inside the chapters, you'll have subtitles;</li>
+            <li>Those subtitles can be marked up with <code>h3</code>, <code>h4</code>;</li>
+            <li>
+              They're in chronologically descending order, even though you'll have an <code>h2</code> for the next chapter after an
+              <code>h4</code>.
+            </li>
+          </ol>
+
+          <hr />
+        </section>
+
+        <section class="page__section">
+          <h2 class="h2">References</h2>
+
+          <ul class="list">
+            <li>
+              <a href="https://www.w3schools.com/html/html_headings.asp" target="_blank" rel="noopener"
+                >https://www.w3schools.com/html/html_headings.asp</a
+              >
+            </li>
+
+            <li>
+              <a href="https://en.ryte.com/product-insights/how-to-use-html-heading-tags-correctly" target="_blank" rel="noopener"
+                >https://en.ryte.com/product-insights/how-to-use-html-heading-tags-correctly</a
+              >
+            </li>
+
+            <li>
+              <a href="https://yoast.com/how-to-use-headings-on-your-site/" target="_blank" rel="noopener"
+                >https://yoast.com/how-to-use-headings-on-your-site/</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p class="p">
+        Return to <a href="../../">home</a> | With <span aria-label="love">&hearts;</span> by <a href="https://jlozovei.dev">jlozovei</a>
+      </p>
+    </footer>
+  </body>
+</html>
