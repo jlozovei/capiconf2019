@@ -30,19 +30,37 @@ function handleError(err) {
  */
 
 // task css
-function css(isColorblind) {
-  let processors = [precss(), postcssPresetEnv(), rucksack(), postcssCustomSelectors(), postcssCustomProperties(), cssnano()];
-
-  if (isColorblind) processors.push(colorblind());
+gulp.task('css:default', () => {
+  const processors = [precss(), postcssPresetEnv(), rucksack(), postcssCustomSelectors(), postcssCustomProperties(), cssnano()];
 
   return gulp
-    .src(`${config.src.css.root}/*.css`)
+    .src(`${config.src.css.root}/base.css`)
     .pipe(plumber())
     .pipe(postcss(processors))
     .on('error', handleError)
     .pipe(gulp.dest(config.public.css))
     .pipe(connect.reload());
-}
+});
+
+gulp.task('css:blind', () => {
+  const processors = [
+    precss(),
+    postcssPresetEnv(),
+    rucksack(),
+    postcssCustomSelectors(),
+    postcssCustomProperties(),
+    cssnano(),
+    colorblind()
+  ];
+
+  return gulp
+    .src(`${config.src.css.root}/colorblind.css`)
+    .pipe(plumber())
+    .pipe(postcss(processors))
+    .on('error', handleError)
+    .pipe(gulp.dest(config.public.css))
+    .pipe(connect.reload());
+});
 
 // default task
 gulp.task('default', () => {
@@ -50,7 +68,5 @@ gulp.task('default', () => {
   connect.server(config.connect);
 
   // watch all css files
-  gulp.watch(`${config.src.css.root}/**/*.css`).on('change', fileName => {
-    css(fileName.includes('colorblind'));
-  });
+  gulp.watch(`${config.src.css.root}/**/*.css`, gulp.series(['css:default', 'css:blind']));
 });
