@@ -8,5 +8,6 @@
 @import './components/_lists';
 @import './components/_buttons';
 @import './components/_forms';
+@import './components/_banner';
 @import './components/_page';
 @import './components/_footer';

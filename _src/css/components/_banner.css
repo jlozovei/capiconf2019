@@ -1,0 +1,17 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 4px;
+  font-size: 2rem;
+  line-height: 1.32;
+  text-align: center;
+
+  &--blue {
+    background-color: $blue;
+    color: $light_blue;
+  }
+}
