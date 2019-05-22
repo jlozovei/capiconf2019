@@ -25,6 +25,7 @@
 - [Lei Nº 13.146, 6 de Julho de 2015](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/Lei/L13146.htm)
 - [WCAG 2.0 (PT-pt)](https://www.w3.org/Translations/WCAG20-pt-br/)
 - [hipsters.tech #27 - Acessibilidade Web](https://hipsters.tech/acessibilidade-web-hipsters-21/)
+- [hipsters.tech #82 - Programar sem enxergar](https://hipsters.tech/programar-sem-enxergar-hipsters-82/)
 - [hiddedevries.nl - Naming things to improve accessibility](https://hiddedevries.nl/en/blog/2019-04-18-naming-things-to-improve-accessibility)
 - [Lisa Caniglia - Building Accessible Single Page Apps @ codeburst.io](https://codeburst.io/building-accessible-single-page-apps-2ea3e4fbbc01)
 - [UX writing explained in 5 F words | Inside Design Blog](https://www.invisionapp.com/inside-design/ux-writing-5-f-words/)
