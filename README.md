@@ -1,5 +1,5 @@
 # The Age of Accessibility // A Era da Acessibilidade
 
-Moved to [accessibility-talk](https://github.com/jlozovei/accessibility-talk)
+Moved to [the-age-of-accessibility](https://github.com/jlozovei/the-age-of-accessibility)
 
 :heart:
